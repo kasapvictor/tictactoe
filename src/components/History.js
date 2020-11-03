@@ -8,7 +8,7 @@ const History = ({ history, moveTo, currentMove }) => {
 					return <li key={move}>
 						<button
 							style={ {
-								fontWeight: move === currentMove ? 600 : 300;
+								fontWeight: move === currentMove ? 600 : 300
 							} }
 							type="button"
 							onClick={ () => {
